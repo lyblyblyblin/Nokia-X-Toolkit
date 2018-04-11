@@ -14,20 +14,20 @@ goto :eof
 
 :head
 cls
-echo  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
-echo  ³                                                ³
-echo  ³          Nokia X Toolkit Version 1.20          ³
-echo  ³                Develop by Ethan                ³
-echo  ³             http://www.artit-k.com             ³
-echo  ³                                                ³
-echo  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+echo   ________________________________________________                                             
+echo.
+echo            Nokia X Toolkit Version 1.20          
+echo                  Develop by Ethan                
+echo               http://www.artit-k.com
+echo.
+echo   ________________________________________________
 goto :eof
 
 :show_work
 call :head
 echo.
 echo    %menutext%
-echo   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+echo   ________________________________________________
 goto :eof
 
 :menu_work
@@ -35,35 +35,35 @@ call :clear_var
 call :head
 echo.
 echo    Select menu, or x to exit
-echo   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+echo   ____________________________________
 echo.
-echo   Ú Root file (Send to device) ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
-echo   ³[ 1] Superuser 3.1.3   - ChainsDD
-echo   ³[ 2] SuperSU 2.01      - Chainfire
-echo   ³[ 3] Superuser 1.0.3.0 - ClockworkMod
-echo   ³[ 4] Unroot - COMING SOON!
+echo    Root file (Send to device) ___________________
+echo   [ 1] Superuser 3.1.3   - ChainsDD
+echo   [ 2] SuperSU 2.01      - Chainfire
+echo   [ 3] Superuser 1.0.3.0 - ClockworkMod
+echo   [ 4] Unroot - COMING SOON!
 echo.
-echo   Ú Google Play Services file (Send to device) ÄÄÄ
-echo   ³[ 5] Install           [ 6] Uninstall
+echo    Google Play Services file (Send to device) ___
+echo   [ 5] Install           [ 6] Uninstall
 echo.
-echo   Ú Fix Calendar Sync App file (Send to device) ÄÄ
-echo   ³[ 7] For firmware 1.1.2.2 and older
-echo   ³[ 8] For firmware 1.1.2.2 and 1.2.4.1
+echo    Fix Calendar Sync App file (Send to device) __
+echo   [ 7] For firmware 1.1.2.2 and older
+echo   [ 8] For firmware 1.1.2.2 and 1.2.4.1
 echo.
-echo   Ú Recovery ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
-echo   ³[11] Boot to Recovery
-echo   ³[12] Boot to ClockworkMod Recovery 6.0.4.8
-echo   ³[13] Flash ClockworkMod Recovery 6.0.4.8
+echo    Recovery _____________________________________
+echo   [11] Boot to Recovery
+echo   [12] Boot to ClockworkMod Recovery 6.0.4.8
+echo   [13] Flash ClockworkMod Recovery 6.0.4.8
 echo.
-echo   Ú Batch ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
-echo   ³[21] Root [1]+[12]      [22] Root [2]+[12]
-echo   ³[23] Root [3]+[12] *
-echo   ³
-echo   ³[25] Install   Google Play Services [5]+[12] *
-echo   ³[26] Uninstall Google Play Services [6]+[12]
-echo   ³
-echo   ³[27] Install Fix Calendar Sync App [7]+[12]
-echo   ³[28] Install Fix Calendar Sync App [8]+[12]
+echo    Batch ________________________________________
+echo   [21] Root [1]+[12]      [22] Root [2]+[12]
+echo   [23] Root [3]+[12] *
+echo.   
+echo   [25] Install   Google Play Services [5]+[12] *
+echo   [26] Uninstall Google Play Services [6]+[12]
+echo.   
+echo   [27] Install Fix Calendar Sync App [7]+[12]
+echo   [28] Install Fix Calendar Sync App [8]+[12]
 echo.
 echo.
 echo    [ 0] Clean send file(s)
